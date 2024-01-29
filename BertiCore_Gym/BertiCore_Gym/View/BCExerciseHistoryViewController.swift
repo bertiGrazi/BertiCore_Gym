@@ -11,7 +11,7 @@ class BCExerciseHistoryViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .red
+        view.backgroundColor = UIColor.gray_700
     }
 }
 

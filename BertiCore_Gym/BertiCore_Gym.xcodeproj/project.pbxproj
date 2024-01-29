@@ -15,6 +15,7 @@
 		B11319BA2B68546500617921 /* BCTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11319B92B68546500617921 /* BCTabBarViewController.swift */; };
 		B11319BC2B68557400617921 /* BCExerciseHistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11319BB2B68557400617921 /* BCExerciseHistoryViewController.swift */; };
 		B11319BE2B6855A100617921 /* BCPerfilViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11319BD2B6855A100617921 /* BCPerfilViewController.swift */; };
+		B1BA897B2B685A5C0027F562 /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1BA897A2B685A5C0027F562 /* UIColor+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		B11319B92B68546500617921 /* BCTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCTabBarViewController.swift; sourceTree = "<group>"; };
 		B11319BB2B68557400617921 /* BCExerciseHistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCExerciseHistoryViewController.swift; sourceTree = "<group>"; };
 		B11319BD2B6855A100617921 /* BCPerfilViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BCPerfilViewController.swift; sourceTree = "<group>"; };
+		B1BA897A2B685A5C0027F562 /* UIColor+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 		B11319A02B68512600617921 /* BertiCore_Gym */ = {
 			isa = PBXGroup;
 			children = (
+				B1BA89792B685A530027F562 /* Utils */,
 				B11319B72B68543100617921 /* Controllers */,
 				B11319B62B68527700617921 /* View */,
 				B11319B52B68525400617921 /* Resources */,
@@ -103,6 +106,14 @@
 				B11319B92B68546500617921 /* BCTabBarViewController.swift */,
 			);
 			path = Core;
+			sourceTree = "<group>";
+		};
+		B1BA89792B685A530027F562 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B1BA897A2B685A5C0027F562 /* UIColor+Extensions.swift */,
+			);
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,6 +190,7 @@
 				B11319A22B68512600617921 /* AppDelegate.swift in Sources */,
 				B11319BC2B68557400617921 /* BCExerciseHistoryViewController.swift in Sources */,
 				B11319A42B68512600617921 /* SceneDelegate.swift in Sources */,
+				B1BA897B2B685A5C0027F562 /* UIColor+Extensions.swift in Sources */,
 				B11319BA2B68546500617921 /* BCTabBarViewController.swift in Sources */,
 				B11319BE2B6855A100617921 /* BCPerfilViewController.swift in Sources */,
 			);
